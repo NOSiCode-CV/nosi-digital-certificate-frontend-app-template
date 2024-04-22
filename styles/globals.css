@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#main-body-list {
+  min-height: calc(100vh - 80px);
+}
+
+#chat-box,
+#chat-box > div {
+  height: calc(100vh - 78px);
+}
+
+input:focus,
+input:active {
+  box-shadow: none !important;
+  border-color: transparent !important;
+  outline-color: transparent !important;
+}

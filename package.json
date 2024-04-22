@@ -1,0 +1,46 @@
+{
+  "name": "nosi-digital-certificate-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "next build && next export && npx thirdweb@latest upload out"
+  },
+  "dependencies": {
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@thirdweb-dev/engine": "^0.0.5",
+    "@thirdweb-dev/react": "^4",
+    "@thirdweb-dev/sdk": "^4",
+    "@thirdweb-dev/storage": "^2.0.14",
+    "autoprefixer": "^10.4.19",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "ethers": "^5",
+    "flowbite-react": "^0.9.0",
+    "formidable": "^3.5.1",
+    "lucide-react": "^0.372.0",
+    "next": "^13",
+    "node-fetch": "^3.3.2",
+    "postcss": "^8.4.38",
+    "react": "^18.2",
+    "react-dom": "^18.2",
+    "react-svg": "^16.1.34",
+    "react-sweetalert2": "^0.6.0",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss": "^3.4.3",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/formidable": "^3.4.5",
+    "@types/node": "^18.11.11",
+    "@types/react": "^18",
+    "eslint": "^8.29.0",
+    "eslint-config-next": "^13",
+    "typescript": "^5.4.5"
+  }
+}
